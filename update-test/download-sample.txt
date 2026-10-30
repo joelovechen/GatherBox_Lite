@@ -1,0 +1,4 @@
+GatherBox Lite update connectivity test
+Date: 2026-10-30
+Purpose: anonymous file download verification only.
+This is plain text, not an installer or a software release.
