@@ -1,0 +1,9 @@
+{
+  "version": "0.2.1",
+  "name": "GatherBox Lite 更新通道连通性测试（非正式发布）",
+  "release_date": "2026-10-30",
+  "changelog": "这是一条更新公告读取测试，不代表 0.2.1 正式版已经发布。\n用于验证 0.2.0 客户端能否读取版本号和中文公告。\n本次不提供安装包，请勿尝试安装；下载样本仅为纯文本。",
+  "download_url": "",
+  "html_url": "https://github.com/joelovechen/GatherBox_Lite/blob/main/update-test/download-sample.txt",
+  "test_only": true
+}
