@@ -1,0 +1,30 @@
+name: Build Tauri source baseline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Install frontend dependencies
+        working-directory: dev/bili-app
+        run: pnpm install --frozen-lockfile
+      - name: Build frontend
+        working-directory: dev/bili-app
+        run: pnpm run build
+      - name: Build Tauri Rust application
+        working-directory: dev/bili-app/src-tauri
+        run: cargo build --locked

@@ -1,9 +1,8 @@
 {
-  "version": "0.2.1",
-  "name": "GatherBox Lite 更新通道连通性测试（非正式发布）",
-  "release_date": "2026-10-30",
-  "changelog": "这是一条更新公告读取测试，不代表 0.2.1 正式版已经发布。\n用于验证 0.2.0 客户端能否读取版本号和中文公告。\n本次不提供安装包，请勿尝试安装；下载样本仅为纯文本。",
+  "version": "0.2.0",
+  "name": "GatherBox Lite 0.2.0",
+  "release_date": "2026-10-27",
+  "changelog": "支持哔哩哔哩音视频下载、作者与合集监听。\n支持知乎文章与回答归档、本地阅读及多账号管理。\n提供 Windows x64 安装版与便携版。",
   "download_url": "",
-  "html_url": "https://github.com/joelovechen/GatherBox_Lite/blob/main/update-test/download-sample.txt",
-  "test_only": true
+  "html_url": "https://github.com/joelovechen/GatherBox_Lite/releases"
 }

@@ -1,0 +1,31 @@
+# Dependencies and build output
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+target/
+dist/
+build/
+release/
+dev/bili-app/src-tauri/gen/
+dev/bili-app/src-tauri/binaries/
+# Local settings, credentials and content
+.env
+.env.*
+!.env.example
+download/
+data/
+db/
+logs/
+*.log
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*session*.json
+*cookie*.txt
+_gt/
+.vscode/
+.idea/
+.DS_Store
+nuitka-crash-report.xml
